@@ -29,6 +29,11 @@ const HomeScreen = ({ navigation }) => { //we are pulling only the navigation pr
     title="Go to Color Screen"
     onPress={() => navigation.navigate('Color')}
     />
+
+<Button
+    title="Go to Square Screen"
+    onPress={() => navigation.navigate('Square')}
+    />
   </View>
   );
 };
